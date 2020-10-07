@@ -14,9 +14,13 @@
 	<p>ACCOUNT SIGN UP</p>
 	
 	<form action="null" method="post" autocomplete="on">
-	<!-- user email, phone number, date of birth -->
+	<!-- To create account: Name, Email, Phone number, password -->
 	
 	<ul>
+		<li>
+			<label for="name">Name</label><p></p>
+			<input type="name" id="name" placeholder="First Middle Last">
+		</li>
 		<li>
 			<label for="mail">E-Mail</label><p></p>
 			<input type="email" id="mail" placeholder="someone@gmail.com">
@@ -26,12 +30,16 @@
 			<input type="tel" id="phone" placeholder="###-###-####">
 		</li>
 		<li>
-			<label for="dob">Date of Birth</label><p></p>
-			<input type="date" id="dob">
+			<label for="pass">Password</label><p></p>
+			<input type="pass" id="pass" placeholder="***********">
+		</li>
+		<li>
+			<label for="pass">Re-enter Password</label><p></p>
+			<input type="pass" id="pass" placeholder="***********">
 		</li>
 	</ul>
-	<!-- submit button -->
-	<input type="submit" value="SUBMIT">
+	<!-- create account button -->
+	<input type="submit" value="Create Account">
 	
 	</form>
 	
