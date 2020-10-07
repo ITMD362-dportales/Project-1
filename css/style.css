@@ -29,6 +29,10 @@ input[type=submit] {
 	border-bottom-style: solid;
 }
 
+.pic{
+	width: 85%;
+}
+
 /*Desktop Page*/
 @media only screen and (min-width: 850px){
 body {
@@ -45,4 +49,7 @@ input {
 	border-left-style: solid;
 }
 
+.pic{
+	width: 35%;
+}
 }
