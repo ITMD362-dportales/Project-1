@@ -1,0 +1,45 @@
+body {
+	text-align: center;
+	color: #0dbc78;
+}
+h1 {
+	font-size: 5em;
+	text-decoration: underline;
+}
+ul {
+	text-decoration: underline;
+}
+label {
+	font-size: 2em;
+}
+input {
+	text-align: center;
+	width: 90%;
+	margin: 10px 0;
+	padding: 15px;
+	border-style: solid;
+	border-radius: 15px 15px 15px 15px;
+}
+  
+input[type=submit] {
+	text-align: center;
+	border-bottom-style: solid;
+}
+
+/*Desktop Page*/
+@media only screen and (min-width: 850px){
+body {
+	color: #eb902d;
+}
+
+input {
+	text-align: left;
+	width: 50%;
+	padding: 25px 50px;
+	border-top-style: dashed;
+	border-right-style: solid;
+	border-bottom-style: dashed;
+	border-left-style: solid;
+}
+
+}
