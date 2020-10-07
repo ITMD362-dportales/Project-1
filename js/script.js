@@ -1,7 +1,7 @@
 function init(){
 	var na = document.getElementById('name');
-	var em = document.getElementById('email');
-	var ps = document.getElementById('pass');
+	var em = document.getElementById('mail');
+	var ps = document.getElementById('passw');
 	
 	var no = document.getElementById('nameout');
 	var eo = document.getElementById('emailout');
