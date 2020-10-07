@@ -40,7 +40,9 @@ input[type=submit] {
 
 .pic{
 	width: 85%;
-	border-radius: 8px;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	padding: 5px;
 }
 
 #entrybutton{
