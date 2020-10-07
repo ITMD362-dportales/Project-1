@@ -1,10 +1,10 @@
 function init(){
 	var na = document.getElementById('name');
-	var em = document.getElementById('mail');
+	var em = document.getElementById('email');
 	var ps = document.getElementById('pass');
 	
 	var no = document.getElementById('nameout');
-	var eo = document.getElementById('mailout');
+	var eo = document.getElementById('emailout');
 	var po = document.getElementById('passout');
 	
 	var button = document.getElementById('entrybutton');
