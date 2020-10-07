@@ -78,5 +78,8 @@ input {
 
 .pic{
 	width: 35%;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	padding: 2.5px;
 }
 }
