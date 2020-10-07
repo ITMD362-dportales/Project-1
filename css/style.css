@@ -83,3 +83,17 @@ input {
 	padding: 5px;
 }
 }
+
+@media only screen and (max-width: 400px){
+	body {
+	color: #ca1c36;
+}
+	.pic {
+	width: 85%;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+	
+}
+
