@@ -3,7 +3,7 @@ Modular scale
 */
 
 body {
-  font-family: 'Signika', arial;
+  font-family: 'Signika', arial, impact;
   text-align: center;
   color: #0dbc78;
 }
@@ -65,8 +65,25 @@ input[type=submit] {
 
 }
 
-/*Desktop Page*/
-@media only screen and (min-width: 850px){
+/*0-424 mobile, 425-769 tablet, 770-max laptop */
+@media only screen and (min-width: 425px){
+body {
+  color: #ca1c36;
+}
+
+.pic {
+  width: 85%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+input[type=submit] {
+  background-color: #ca1c36
+}
+}
+
+@media only screen and (min-width: 770px){
 body {
   color: #eb902d;
 }
@@ -92,21 +109,3 @@ input[type=submit] {
   background-color: #eb902d
 }
 }
-
-@media only screen and (max-width: 400px){
-body {
-  color: #ca1c36;
-}
-
-.pic {
-  width: 85%;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-  padding: 10px;
-}
-
-input[type=submit] {
-  background-color: #ca1c36
-}
-}
-
