@@ -1,48 +1,52 @@
+/*
+Modular scale
+*/
+
 body {
-	text-align: center;
-	color: #0dbc78;
+  text-align: center;
+  color: #0dbc78;
 }
 
 h1 {
-	font-size: 5em;
-	text-decoration: underline;
+  font-size: 5em;
+  text-decoration: underline;
 }
 
 h2 {
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 p  {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 ul {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 label {
-	font-size: 2em;
+  font-size: 2em;
 }
 
 input {
-	text-align: center;
-	width: 90%;
-	margin: 10px 0;
-	padding: 15px;
-	border-style: solid;
-	border-radius: 15px 15px 15px 15px;
+  text-align: center;
+  width: 90%;
+  margin: 10px 0;
+  padding: 15px;
+  border-style: solid;
+  border-radius: 15px 15px 15px 15px;
 }
   
 input[type=submit] {
-	text-align: center;
-	border-bottom-style: solid;
+  text-align: center;
+  border-bottom-style: solid;
 }
 
 .pic{
-	width: 85%;
-	border-radius: 10px;
-	border: 1px solid #ddd;
-	padding: 5px;
+  width: 85%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
 }
 
 #entrybutton{
@@ -59,43 +63,45 @@ input[type=submit] {
 /*Desktop Page*/
 @media only screen and (min-width: 850px){
 body {
-	color: #eb902d;
+  color: #eb902d;
 }
 
 input {
-	text-align: left;
-	width: 50%;
-	padding: 25px 50px;
-	border-top-style: dashed;
-	border-right-style: solid;
-	border-bottom-style: dashed;
-	border-left-style: solid;
-}
-
-#entrybutton{
-	background-color: #eb902d
+  text-align: left;
+  width: 50%;
+  padding: 25px 50px;
+  border-top-style: dashed;
+  border-right-style: solid;
+  border-bottom-style: dashed;
+  border-left-style: solid;
 }
 
 .pic{
-	width: 35%;
-	border-radius: 20px;
-	border: 1px solid #ddd;
-	padding: 5px;
+  width: 35%;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+#entrybutton{
+  background-color: #eb902d
 }
 }
 
 @media only screen and (max-width: 400px){
-	body {
-	color: #ca1c36;
+body {
+  color: #ca1c36;
 }
-	.pic {
-	width: 85%;
-	border-radius: 10px;
-	border: 1px solid #ddd;
-	padding: 5px;
+
+.pic {
+  width: 85%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
 }
-	#entrybutton{
-	background-color: #ca1c36
+
+#entrybutton{
+  background-color: #ca1c36
 }
 }
 
