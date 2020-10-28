@@ -19,8 +19,7 @@ function ver(){
 	alert("Name: " + na.value  + "\n" +
 	"Email: " + em.value  + "\n" +
 	"Phone Number: " + pn.value  + "\n" +
-	"Password: " + ps.value  + "\n" +
-	);
+	"Password: " + ps.value);
 	
   });
 }
