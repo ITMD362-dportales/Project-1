@@ -2,14 +2,14 @@
 Modular scale
 */
 
-body {
+html {
   font-family: 'Signika', arial, impact;
   text-align: center;
   color: #0dbc78;
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 4em;
   text-decoration: underline;
 }
 
@@ -65,9 +65,9 @@ input[type=submit] {
 
 }
 
-/*0-424 mobile, 425-769 tablet, 770-max laptop */
+/*424 mobile, 425-769 tablet, 770-max laptop */
 @media only screen and (min-width: 425px){
-body {
+html {
   color: #ca1c36;
 }
 
@@ -84,8 +84,12 @@ input[type=submit] {
 }
 
 @media only screen and (min-width: 770px){
-body {
+html {
   color: #eb902d;
+}
+
+h1 {
+	font-size: 5em;
 }
 
 input {
