@@ -26,15 +26,17 @@ ul {
 
 label {
   font-size: 2em;
+  display: block;
 }
 
 input {
   text-align: center;
-  width: 90%;
+  width: 80%;
   margin: 10px 0;
   padding: 15px;
   border-style: solid;
   border-radius: 15px 15px 15px 15px;
+  display: inline-block;
 }
   
 input[type=submit] {
@@ -68,7 +70,7 @@ body {
 
 input {
   text-align: left;
-  width: 50%;
+  width: 70%;
   padding: 25px 50px;
   border-top-style: dashed;
   border-right-style: solid;
