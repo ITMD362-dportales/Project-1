@@ -6,19 +6,18 @@ html {
   font-family: 'Signika', arial, impact;
   text-align: center;
   color: #0dbc78;
+  
 }
 
 h1 {
   font-size: 4em;
   text-decoration: underline;
+  padding-bottom: 10px;
 }
 
 h2 {
   font-size: 1.5em;
-}
-
-p  {
-  font-size: 1.2em;
+  padding-bottom: 10px;
 }
 
 ul {
@@ -67,49 +66,42 @@ input[type=submit] {
 
 /*424 mobile, 425-769 tablet, 770-max laptop */
 @media only screen and (min-width: 425px){
-html {
-  color: #ca1c36;
-}
+  html {
+    color: #ca1c36;
+  }
 
-.pic {
-  width: 85%;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-  padding: 10px;
-}
-
-input[type=submit] {
-  background-color: #ca1c36
-}
+  input[type=submit] {
+    background-color: #ca1c36
+  }
 }
 
 @media only screen and (min-width: 770px){
-html {
-  color: #eb902d;
-}
+  html {
+    color: #eb902d;
+  }
 
-h1 {
-	font-size: 5em;
-}
+  h1 {
+    font-size: 5em;
+  }
 
-input {
-  text-align: left;
-  width: 70%;
-  padding: 25px 50px;
-  border-top-style: dashed;
-  border-right-style: solid;
-  border-bottom-style: dashed;
-  border-left-style: solid;
-}
+  input {
+    text-align: left;
+    width: 70%;
+    padding: 25px 50px;
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+  }
 
-.pic{
-  width: 35%;
-  border-radius: 20px;
-  border: 1px solid #ddd;
-  padding: 10px;
-}
+  .pic{
+    width: 35%;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
 
-input[type=submit] {
-  background-color: #eb902d
-}
+  input[type=submit] {
+    background-color: #eb902d
+  }
 }
