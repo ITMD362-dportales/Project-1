@@ -1,58 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
-
   <title>Project1</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/style.css" />
   <script async src="js/script.js"></script>
-  
 </head>
+
 <body>
-	<h1>SIGN UP TODAY</h1>
-	<h2>ONLINE STORE ACCOUNT SIGN UP</h2>
-	<img src="image/logo.jpg" alt="logo" class="pic">
+  <h1>SIGN UP TODAY</h1>
+  <h2>ONLINE STORE ACCOUNT SIGN UP</h2>
+  <img src="image/logo.jpg" alt="logo" class="pic">
 	
-	<form action="null" method="post" autocomplete="on">
-	<!-- To create account: Name, Email, Phone number, password -->
+  <form action="null" method="post" autocomplete="on">
+  <!-- To create account: Name, Email, Phone number, password -->
+    <ul>
+      <li>
+	    <label for="name">Name</label><p></p>
+	    <input type="text" id="name" placeholder="First Middle Last">
+	  </li>
+	  <li>
+        <label for="mail">E-Mail</label><p></p>
+        <input type="email" id="mail" placeholder="example@gmail.com">
+      </li>
+      <li>
+	    <label for="phone">Phone Number</label><p></p>
+	    <input type="tel" id="phone" placeholder="###-###-####">
+      </li>
+      <li>
+	    <label for="passw">Password</label><p></p>
+	    <input type="password" id="passw" placeholder="***********">
+      </li>
+      <li>
+	    <label for="repassw">Re-enter Password</label><p></p>
+	    <input type="password" id="repassw" placeholder="***********">
+      </li>
+    </ul>
 	
-	<ul>
-		<li>
-			<label for="name">Name</label><p></p>
-			<input type="text" id="name" placeholder="First Middle Last">
-		</li>
-		<li>
-			<label for="mail">E-Mail</label><p></p>
-			<input type="email" id="mail" placeholder="example@gmail.com">
-		</li>
-		<li>
-			<label for="phone">Phone Number</label><p></p>
-			<input type="tel" id="phone" placeholder="###-###-####">
-		</li>
-		<li>
-			<label for="passw">Password</label><p></p>
-			<input type="password" id="passw" placeholder="***********">
-		</li>
-		<li>
-			<label for="repassw">Re-enter Password</label><p></p>
-			<input type="password" id="repassw" placeholder="***********">
-		</li>
-	</ul>
+    <!-- java button to check  info and show info -->
+    <div id="entrybutton">CHECK INFO</div>
+    <p id="nameout">NAME</p>
+    <p id="emailout">EMAIL</p>
+    <p id="passout">PASSWORD</p>
 	
-	<!-- java button to check  info and show info -->
-	<div id="entrybutton">CHECK INFO</div>
-	<p id="nameout">NAME</p>
-	<p id="emailout">EMAIL</p>
-	<p id="passout">PASSWORD</p>
+    <h3>Check box to receive our weekly paper and exclusive discounts!</h3>
+    <input type="checkbox" name="agree">
 	
-	<h3>Check box to receive our weekly paper and exclusive discounts!</h3>
-	<input type="checkbox" name="agree">
+    <!-- create account button -->
+    <input type="submit" value="Create Account">
 	
-	<!-- create account button -->
-	<input type="submit" value="Create Account">
-	
-	</form>
+  </form>
 </body>
 </html>
