@@ -42,19 +42,20 @@ input {
 input[type=submit] {
   text-align: center;
   border-bottom-style: solid;
+  background-color: #0dbc78;
 }
 
-.pic{
+.pic {
   width: 85%;
   border-radius: 10px;
   border: 1px solid #ddd;
   padding: 10px;
 }
 
-#entrybutton{
+#entrybutton {
   width: 200px;
   color: #fff;
-  background-color: #0dbc78;
+  background-color: #C0C0C0;
   padding: 1em 0;
   margin: 20px auto;
   font-size: 1.25em;
@@ -85,7 +86,7 @@ input {
   padding: 10px;
 }
 
-#entrybutton{
+input[type=submit] {
   background-color: #eb902d
 }
 }
@@ -102,7 +103,7 @@ body {
   padding: 10px;
 }
 
-#entrybutton{
+input[type=submit] {
   background-color: #ca1c36
 }
 }
