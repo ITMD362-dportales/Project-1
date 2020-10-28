@@ -8,7 +8,7 @@ function checkinput(){
   
 }
 
-function init(){
+function ver(){
   var na = document.getElementById('name');
   var em = document.getElementById('mail');
   var pn = document.getElementById('phone');
@@ -16,9 +16,13 @@ function init(){
 	
   var button = document.getElementById('entrybutton');
   button.addEventListener('click' , function(){
-	alert("Name: /n/n/n/n/n");
+	alert("Name: " + na.value  + "\n" +
+	"Email: " + em.value  + "\n" +
+	"Phone Number: " + pn.value  + "\n" +
+	"Password: " + ps.value  + "\n" +
+	);
 	
   });
 }
 
-window.addEventListener('load', init)
+window.addEventListener('load', ver)
