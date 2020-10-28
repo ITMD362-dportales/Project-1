@@ -3,6 +3,7 @@ Modular scale
 */
 
 body {
+  font-family: 'Signika', arial;
   text-align: center;
   color: #0dbc78;
 }
@@ -40,6 +41,7 @@ input {
 }
   
 input[type=submit] {
+  font-family: 'Signika', arial;
   text-align: center;
   border-bottom-style: solid;
   background-color: #0dbc78;
