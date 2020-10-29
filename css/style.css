@@ -19,6 +19,13 @@ h2 {
   padding-bottom: 10px;
 }
 
+.pic {
+  width: 85%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
 ul {
   text-decoration: underline;
 }
@@ -37,20 +44,6 @@ input {
   border-radius: 15px 15px 15px 15px;
   display: inline-block;
 }
-  
-#final {
-  font-family: 'Signika', arial;
-  text-align: center;
-  border-bottom-style: solid;
-  background-color: #0dbc78;
-}
-
-.pic {
-  width: 85%;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-  padding: 10px;
-}
 
 #entrybutton {
   width: 200px;
@@ -63,6 +56,13 @@ input {
 
 }
 
+#final {
+  font-family: 'Signika', arial;
+  text-align: center;
+  border-bottom-style: solid;
+  background-color: #0dbc78;
+}
+
 /*425 mobile, 426-769 tablet, 770-max laptop */
 @media only screen and (min-width: 426px){
   html {
@@ -72,21 +72,12 @@ input {
   h1 {
     font-size:4em;
   }
-
-  #final {
-    background-color: #ca1c36
+  
+  .pic {
+    width: 80%;
+    padding: 15px;
   }
-}
-
-@media only screen and (min-width: 770px){
-  html {
-    color: #eb902d;
-  }
-
-  h1 {
-    font-size: 5em;
-  }
-
+  
   input {
     text-align: left;
     width: 70%;
@@ -97,11 +88,36 @@ input {
     border-left-style: solid;
   }
 
+  #final {
+    background-color: #ca1c36
+  }
+
+}
+
+@media only screen and (min-width: 770px){
+  html {
+    color: #eb902d;
+  }
+
+  h1 {
+    font-size: 5em;
+  }
+  
   .pic{
     width: 35%;
     border-radius: 20px;
-    border: 1px solid #ddd;
-    padding: 10px;
+    border: 1px solid #C0C0C0;
+    padding: 20px;
+  }
+
+  input {
+    text-align: left;
+    width: 70%;
+    padding: 25px 50px;
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: solid;
   }
 
   #final {
