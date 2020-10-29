@@ -70,15 +70,15 @@ input {
 @media only screen and (min-width: 426px){
   html {
     color: #ca1c36;
-	font-size: 20px;
+	font-size: 20px; /* 1.25em */ 
   }
   
   h1 {
-    font-size: 70px;
+    font-size: 70px; /* 4.375em */ 
   }
   
   h2 {
-    font-size: 32px;
+    font-size: 32px; /* 2em */ 
   }
   
   .pic {
@@ -87,7 +87,7 @@ input {
   }
   
   label {
-    font-size: 35px;
+    font-size: 35px; /* 2.188em */ 
   }
   
   input {
@@ -101,12 +101,12 @@ input {
   }
   
   #entrybutton {
-    font-size: 28px;
+    font-size: 28px; /* 1.75em */ 
   }
 
   #final {
     background-color: #ca1c36;
-	font-size: 32px;
+	font-size: 32px; /* 2em */ 
   }
 
 }
@@ -114,15 +114,15 @@ input {
 @media only screen and (min-width: 770px){
   html {
     color: #eb902d;
-	font-size: 20px;
+	font-size: 20px; /* 1.25em */ 
   }
 
   h1 {
-    font-size: 90px;
+    font-size: 90px; /* 5.625em */ 
   }
   
   h2{
-    font-size: 42px;
+    font-size: 42px; /* 2.625em */ 
   }
   
   .pic{
@@ -133,7 +133,7 @@ input {
   }
   
   label{
-    font-size: 38px;
+    font-size: 38px; /* 2.375em */ 
   }
 
   input {
@@ -147,11 +147,11 @@ input {
   }
 
   #entrybutton {
-    font-size: 29px;
+    font-size: 29px; /* 1.813em */ 
   }
 
   #final {
     background-color: #eb902d;
-	font-size: 34px;
+	font-size: 34px; /* 2.125em */ 
   }
 }
