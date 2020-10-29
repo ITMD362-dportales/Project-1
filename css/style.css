@@ -1,21 +1,23 @@
 /*
-Modular scale
+  Modular scale
+  https://www.modularscale.com/?24&px&1.25
 */
 
 html {
   font-family: 'Signika', arial, impact;
   text-align: center;
   color: #0dbc78;
+  font-size: 24px; /* 1em */
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 70px; /* 2.917em */
   text-decoration: underline;
   padding-bottom: 10px;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 35; /* 1.5em */
   padding-bottom: 10px;
 }
 
@@ -31,7 +33,7 @@ ul {
 }
 
 label {
-  font-size: 2em;
+  font-size: 47px; /* 1.958em */
   display: block;
 }
 
@@ -51,7 +53,7 @@ input {
   background-color: #C0C0C0;
   padding: 1em 0;
   margin: 20px auto;
-  font-size: 1.25em;
+  font-size: 30px; /* 1.25em */
   font-weight: bold;
 
 }
@@ -70,7 +72,7 @@ input {
   }
   
   h1 {
-    font-size:4em;
+    font-size: 100px; /* 4.167em */
   }
   
   .pic {
@@ -100,7 +102,7 @@ input {
   }
 
   h1 {
-    font-size: 5em;
+    font-size: 120px; /* 5em */
   }
   
   .pic{
