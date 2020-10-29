@@ -6,11 +6,10 @@ html {
   font-family: 'Signika', arial, impact;
   text-align: center;
   color: #0dbc78;
-  
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   text-decoration: underline;
   padding-bottom: 10px;
 }
@@ -39,7 +38,7 @@ input {
   display: inline-block;
 }
   
-input[type=submit] {
+#final {
   font-family: 'Signika', arial;
   text-align: center;
   border-bottom-style: solid;
@@ -64,13 +63,17 @@ input[type=submit] {
 
 }
 
-/*424 mobile, 425-769 tablet, 770-max laptop */
-@media only screen and (min-width: 425px){
+/*425 mobile, 426-769 tablet, 770-max laptop */
+@media only screen and (min-width: 426px){
   html {
     color: #ca1c36;
   }
+  
+  h1 {
+    font-size:4em;
+  }
 
-  input[type=submit] {
+  #final {
     background-color: #ca1c36
   }
 }
@@ -101,7 +104,7 @@ input[type=submit] {
     padding: 10px;
   }
 
-  input[type=submit] {
+  #final {
     background-color: #eb902d
   }
 }
